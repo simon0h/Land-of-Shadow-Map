@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Gravesite Plain",
+        "region": "Gracesite Plain",
+        "id": "GP-GP",
+        "isDungeon": false,
+        "neighbors": [
+            {
+                "id": "SA-CF"
+            }
+        ]
+    },
+
+    {
+        "name": "Castle Front",
+        "region": "Scadu Altus",
+        "id": "SA-CF",
+        "isDungeon": false,
+        "neighbors": [
+            {
+                "id": "B-TDB"
+            }
+        ]
+    },
+
+    {
+        "name": "Theatre of the Divine Beast",
+        "region": "Belurat",
+        "id": "B-TDB",
+        "isDungeon": true,
+        "neighbors": [
+
+        ]
+    }
+]
