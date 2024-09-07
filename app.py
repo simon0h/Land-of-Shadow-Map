@@ -1,9 +1,9 @@
-# import json
-# from flask import Flask, request
+import json
+from flask import Flask, request
 
-# import sites_of_grace
+import sites_of_grace
 
-# app = Flask(__name__)
+app = Flask(__name__)
 
 # @app.route("/", methods=['GET'])
 # def getPath():
