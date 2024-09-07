@@ -15,7 +15,5 @@ app = Flask(__name__)
 # def postPath():
 #     return "post"
 
-# if __name__ == '__main__':
-#    app.run()
-
-print("hello")
+if __name__ == '__main__':
+   app.run()
