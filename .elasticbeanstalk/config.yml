@@ -1,13 +1,13 @@
 branch-defaults:
-  default:
-    environment: null
-    group_suffix: null
   main:
-    environment: LandofShadowMap-dev
+    environment: Land-of-Shadow-Map-dev
     group_suffix: null
+environment-defaults:
+  Land-of-Shadow-Map-dev:
+    branch: null
+    repository: null
 global:
-  application_name: Land of Shadow Map
-  branch: null
+  application_name: Land-of-Shadow-Map
   default_ec2_keyname: aws-eb
   default_platform: Python 3.9 running on 64bit Amazon Linux 2023
   default_region: us-west-1
@@ -16,6 +16,5 @@ global:
   platform_name: null
   platform_version: null
   profile: eb-cli
-  repository: null
   sc: git
   workspace_type: Application

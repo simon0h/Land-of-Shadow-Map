@@ -1,7 +1,7 @@
 [
     {
         "name": "Gravesite Plain",
-        "region": "Gracesite Plain",
+        "region": "Gravesite Plain",
         "id": "GP-GP",
         "isDungeon": false,
         "neighbors": [
@@ -31,5 +31,135 @@
         "neighbors": [
 
         ]
+    },
+
+
+
+    {
+        "name": "Scorched Ruins",
+        "region": "Gravesite Plain",
+        "id": "SR-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Three-Path Cross",
+        "region": "Gravesite Plain",
+        "id": "TPC-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Greatbridge, North",
+        "region": "Gravesite Plain",
+        "id": "GN-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Main Gate Cross",
+        "region": "Gravesite Plain",
+        "id": "MGC-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Cliffroad Terminus",
+        "region": "Gravesite Plain",
+        "id": "CT-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Castle Front",
+        "region": "Gravesite Plain",
+        "id": "CF-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Pillar Path Cross",
+        "region": "Gravesite Plain",
+        "id": "PPC-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Pillar Path Waypoint",
+        "region": "Gravesite Plain",
+        "id": "PPW-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Ellac River Cave",
+        "region": "Gravesite Plain",
+        "id": "ERC-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Ellac River Downstream",
+        "region": "Gravesite Plain",
+        "id": "ERD-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Fog Rift Catacombs",
+        "region": "Gravesite Plain",
+        "id": "FRC-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Belurat Gaol",
+        "region": "Gravesite Plain",
+        "id": "BG-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Ruined Forge Lava Intake",
+        "region": "Gravesite Plain",
+        "id": "RFLI-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Dragon's Pit",
+        "region": "Gravesite Plain",
+        "id": "DP-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Dragon's Pit Terminus",
+        "region": "Gravesite Plain",
+        "id": "DPT-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Rivermouth Cave",
+        "region": "Gravesite Plain",
+        "id": "RMC-GP",
+        "isDungeon": false,
+        "neighbors": []
     }
 ]
