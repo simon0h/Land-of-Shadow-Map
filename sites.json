@@ -6,34 +6,10 @@
         "isDungeon": false,
         "neighbors": [
             {
-                "id": "SA-CF"
+                "id": "SR-GP"
             }
         ]
     },
-
-    {
-        "name": "Castle Front",
-        "region": "Scadu Altus",
-        "id": "SA-CF",
-        "isDungeon": false,
-        "neighbors": [
-            {
-                "id": "B-TDB"
-            }
-        ]
-    },
-
-    {
-        "name": "Theatre of the Divine Beast",
-        "region": "Belurat",
-        "id": "B-TDB",
-        "isDungeon": true,
-        "neighbors": [
-
-        ]
-    },
-
-
 
     {
         "name": "Scorched Ruins",
@@ -159,6 +135,710 @@
         "name": "Rivermouth Cave",
         "region": "Gravesite Plain",
         "id": "RMC-GP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Castle Ensis Checkpoint",
+        "region": "Castle Ensis",
+        "id": "CEC-CE",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Castle-Lord's Chamber",
+        "region": "Castle Ensis",
+        "id": "CLC-CE",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Ensis Moongazing Grounds",
+        "region": "Castle Ensis",
+        "id": "EMG-CE",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Cerulean Coast",
+        "region": "Cerulean Coast",
+        "id": "CC-CC",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Cerulean Coast West",
+        "region": "Cerulean Coast",
+        "id": "CCW-CC",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Cerulean Coast Cross",
+        "region": "Cerulean Coast",
+        "id": "CCC-CC",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "The Fissure",
+        "region": "Cerulean Coast",
+        "id": "TF-CC",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Finger Ruins of Rhia",
+        "region": "Cerulean Coast",
+        "id": "FRR-CC",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Charo's Hidden Grave",
+        "region": "Charo's Hidden Grave",
+        "id": "CHG-CHG",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Lamenter's Gaol",
+        "region": "Charo's Hidden Grave",
+        "id": "LG-CHG",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Stone Coffin Fissure",
+        "region": "Stone Coffin Fissure",
+        "id": "SCF-SCF",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Fissure Cross",
+        "region": "Stone Coffin Fissure",
+        "id": "FC-SCF",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Fissure Waypoint",
+        "region": "Stone Coffin Fissure",
+        "id": "FW-SCF",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Fissure Depths",
+        "region": "Stone Coffin Fissure",
+        "id": "FD-SCF",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Garden of Deep Purple",
+        "region": "Stone Coffin Fissure",
+        "id": "GDP-SCF",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Grand Altar of Dragon Communion",
+        "region": "Foot of the Jagged Peak",
+        "id": "GADC-FOTJP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Foot of the Jagged Peak",
+        "region": "Foot of the Jagged Peak",
+        "id": "FOTJP-FOTJP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Jagged Peak Mountainside",
+        "region": "Jagged Peak",
+        "id": "JPM-JP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Jagged Peak Summit",
+        "region": "Jagged Peak",
+        "id": "JPS-JP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Rest of the Dead Dragon",
+        "region": "Jagged Peak",
+        "id": "ROTDD-JP",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Belurat, Tower Settlement",
+        "region": "Belurat, Tower Settlement",
+        "id": "BTS-BTS",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Small Private Altar",
+        "region": "Belurat, Tower Settlement",
+        "id": "SPA-BTS",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Stagefront",
+        "region": "Belurat, Tower Settlement",
+        "id": "S-BTS",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Theatre of the Divine Beast",
+        "region": "Belurat, Tower Settlement",
+        "id": "TOTDB-BTS",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Enir-Ilim: Outer Wall",
+        "region": "Enir-Ilim",
+        "id": "EIOW-EI",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "First Rise",
+        "region": "Enir-Ilim",
+        "id": "FR-EI",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Spiral Rise",
+        "region": "Enir-Ilim",
+        "id": "SR-EI",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Cleansing Chamber Anteroom",
+        "region": "Enir-Ilim",
+        "id": "CCA-EI",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Divine Gate Front Staircase",
+        "region": "Enir-Ilim",
+        "id": "DGFS-EI",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Gate of Divinity",
+        "region": "Enir-Ilim",
+        "id": "GOD-EI",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Viaduct Minor Tower",
+        "region": "Ancient Ruins of Rauh",
+        "id": "VMT-ARR",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Rauh Ancient Ruins, East",
+        "region": "Ancient Ruins of Rauh",
+        "id": "RARE-ARR",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Rauh Ancient Ruins, West",
+        "region": "Ancient Ruins of Rauh",
+        "id": "RARW-ARR",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Ancient Ruins, Grand Stairway",
+        "region": "Ancient Ruins of Rauh",
+        "id": "ARGS-ARR",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Church of the Bud, Main Entrance",
+        "region": "Ancient Ruins of Rauh",
+        "id": "COTBME-ARR",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Church of the Bud",
+        "region": "Ancient Ruins of Rauh",
+        "id": "COTB-ARR",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Ancient Ruins Base",
+        "region": "Rauh Base",
+        "id": "ARB-RB",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Temple Town Ruins",
+        "region": "Rauh Base",
+        "id": "TTR-RB",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Ravine North",
+        "region": "Rauh Base",
+        "id": "RN-RB",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Scorpion River Catacombs",
+        "region": "Rauh Base",
+        "id": "SRC-RB",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Taylew's Ruined Forge",
+        "region": "Rauh Base",
+        "id": "TRF-RB",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Highroad Cross",
+        "region": "Scadu Altus",
+        "id": "HC-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Scadu Altus, West",
+        "region": "Scadu Altus",
+        "id": "SAW-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Moorth Ruins",
+        "region": "Scadu Altus",
+        "id": "MR-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Moorth Highway, South",
+        "region": "Scadu Altus",
+        "id": "MHS-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Fort of Reprimand",
+        "region": "Scadu Altus",
+        "id": "FOR-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Behind the Fort of Reprimand",
+        "region": "Scadu Altus",
+        "id": "BTFOR-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Scaduview Cross",
+        "region": "Scadu Altus",
+        "id": "SC-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Bonny Village",
+        "region": "Scadu Altus",
+        "id": "BV-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Bridge Leading to the Village",
+        "region": "Scadu Altus",
+        "id": "BLTTV-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Church District Highroad",
+        "region": "Scadu Altus",
+        "id": "CDH-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Cathedral of Manus Metyr",
+        "region": "Scadu Altus",
+        "id": "COMM-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Finger Birthing Grounds",
+        "region": "Scadu Altus",
+        "id": "FBG-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Castle Watering Hole",
+        "region": "Scadu Altus",
+        "id": "CWH-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Recluses' River Upstream",
+        "region": "Scadu Altus",
+        "id": "RRU-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Recluses' River Downstream",
+        "region": "Scadu Altus",
+        "id": "RRD-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Darklight Catacombs",
+        "region": "Scadu Altus",
+        "id": "DC-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Bonny Gaol",
+        "region": "Scadu Altus",
+        "id": "BG-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Ruined Forged of Starfall Past",
+        "region": "Scadu Altus",
+        "id": "RFOSP-SA",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Forsaken Graveyard",
+        "region": "Abyssal Woods",
+        "id": "FG-AW",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Woodland Trail",
+        "region": "Abyssal Woods",
+        "id": "WT-AW",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Church Ruins",
+        "region": "Abyssal Woods",
+        "id": "CR-AW",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Divided Fall",
+        "region": "Abyssal Woods",
+        "id": "DF-AW",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Abyssal Woods",
+        "region": "Abyssal Woods",
+        "id": "AW-AW",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Manse Hall",
+        "region": "Midra's Manse",
+        "id": "MH-MM",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Midra's Library",
+        "region": "Midra's Manse",
+        "id": "ML-MM",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Second Floor Chamber",
+        "region": "Midra's Manse",
+        "id": "SFC-MM",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Discussion Chamber",
+        "region": "Midra's Manse",
+        "id": "DC-MM",
+        "isDungeon": false,
+        "neighbors": []
+    },
+
+    {
+        "name": "Shadow Keep Main Gate",
+        "region": "Shadow Keep",
+        "id": "SKMG-SK",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Main Gate Plaza",
+        "region": "Shadow Keep",
+        "id": "MGP-SK",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Church District entrance",
+        "region": "Shadow Keep, Church District",
+        "id": "CDE-SKCD",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Sunken Chapel",
+        "region": "Shadow Keep, Church District",
+        "id": "SC-SKCD",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Tree-Worship Passage",
+        "region": "Shadow Keep, Church District",
+        "id": "TWP-SKCD",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Tree-Worship Sanctum",
+        "region": "Shadow Keep, Church District",
+        "id": "TWS-SKCD",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Storehouse, First Floor",
+        "region": "Specimen Storehouse",
+        "id": "SFF-SS",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Storehouse, Fourth Floor",
+        "region": "Specimen Storehouse",
+        "id": "SFoF-SS",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Storehouse, Seventh Floor",
+        "region": "Specimen Storehouse",
+        "id": "SSF-SS",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Dark Chamber Entrance",
+        "region": "Specimen Storehouse",
+        "id": "DCE-SS",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Storehouse, Back Section",
+        "region": "Specimen Storehouse",
+        "id": "SBS-SS",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Storehouse, Loft",
+        "region": "Specimen Storehouse",
+        "id": "SL-SS",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "West Rampart",
+        "region": "Specimen Storehouse",
+        "id": "WR-SS",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Messmer's Dark Chamber",
+        "region": "Specimen Storehouse",
+        "id": "MDC-SS",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Scaduview",
+        "region": "Scaduview",
+        "id": "S-S",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Shadow Keep, Back Gate",
+        "region": "Scaduview",
+        "id": "SKBG-S",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Scadutree Base",
+        "region": "Scaduview",
+        "id": "SB-S",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Hinterland",
+        "region": "Scaduview",
+        "id": "H-S",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Hinterland Bridge",
+        "region": "Scaduview",
+        "id": "HB-S",
+        "isDungeon": false,
+        "neighbors": []
+    },
+    
+    {
+        "name": "Fingerstone Hill",
+        "region": "Scaduview",
+        "id": "FH-S",
         "isDungeon": false,
         "neighbors": []
     }

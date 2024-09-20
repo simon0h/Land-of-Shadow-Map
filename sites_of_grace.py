@@ -29,6 +29,7 @@ class SitesOfGrace:
 
 class Map:
     sitesOfGraces = {}
+    sitesOfGracesFullName = {}
 
 map = Map()
 
@@ -40,6 +41,7 @@ def createMap(sitesPath):
         for neighbor in indvSite["neighbors"]:
             site.neighborsID.append(neighbor["id"])
         map.sitesOfGraces[indvSite["id"]] = site
+        map.sitesOfGracesFullName[indvSite["name"]] = indvSite["id"]
     f.close()
 
     for i in map.sitesOfGraces:
@@ -48,11 +50,26 @@ def createMap(sitesPath):
             map.sitesOfGraces[i].neighborsObj.append(obj)
 
 def findPath(source, destination):
-    obj = map.sitesOfGraces[source]
+    sourceIDName = getID(source)
+    destinationIDName = getID(destination)
+    obj = map.sitesOfGraces[sourceIDName]
     path = []
-    obj.findPath(path, destination)
-    pathDetails = {"source": source, "destination": destination, "pathExists": False, "path": path}
+    obj.findPath(path, destinationIDName)
+    pathDetails = {"source": sourceIDName, "destination": destinationIDName, "pathExists": False, "path": path}
     if (len(path) > 0):
         pathDetails["pathExists"] = True
     jsonPath = json.dumps(pathDetails)
     return jsonPath
+
+# def findPath(source, destination):
+#     obj = map.sitesOfGraces[source]
+#     path = []
+#     obj.findPath(path, destination)
+#     pathDetails = {"source": source, "destination": destination, "pathExists": False, "path": path}
+#     if (len(path) > 0):
+#         pathDetails["pathExists"] = True
+#     jsonPath = json.dumps(pathDetails)
+#     return jsonPath
+
+def getID(fullName):
+    return map.sitesOfGracesFullName[fullName]
