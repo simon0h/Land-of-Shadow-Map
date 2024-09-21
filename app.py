@@ -11,27 +11,28 @@ logging.basicConfig(level=logging.DEBUG)
 
 @app.errorhandler(403)
 def forbidden_error(error):
-    app.logger.error('403 error occurred: %s', error)
+    app.logger.error("403 error occurred: %s", error)
     return "403 Forbidden", 403
 
 @app.route("/", methods=['GET'])
 def createForm():
-    return render_template('form.html')
+    return render_template("form.html")
 
-@app.route("/", methods=['POST'])
+@app.route("/getpath", methods=["GET"])
 def getPath():
     try:
         sites_of_grace.createMap("sites.json")
-        destinationID = request.form["destination"]
+        destinationID = request.args.get("destination", "")
         destinationIDUpper = destinationID.upper()
-        sourceID = request.form["source"]
+        sourceID = request.args.get("source", "")
         sourceIDUpper = sourceID.upper()
         path = sites_of_grace.findPath("Gravesite Plain", "Three-Path Cross")
         #path = sites_of_grace.findPath(destinationIDUpper, sourceIDUpper)
-        return path
+        return render_template("results.html", path=path)
+        #return render_template(path)
     except Exception as e:
-        app.logger.error('Error in getPath: %s', str(e))
+        app.logger.error("Error in getPath: %s", str(e))
         abort(403)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
    app.run(debug=True)

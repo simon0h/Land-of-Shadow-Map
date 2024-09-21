@@ -51,7 +51,7 @@ def createMap(sitesPath):
             map.sitesOfGraces[i].neighborsObj.append(obj)
 
 def findPath(source, destination):
-    print(source, destination)
+    #print(source, destination)
     sourceIDName = getID(source)
     destinationIDName = getID(destination)
     if (sourceIDName == "none" and destinationIDName == "none"):
