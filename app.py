@@ -15,10 +15,6 @@ def forbidden_error(error):
     return "403 Forbidden", 403
 
 @app.route("/", methods=['GET'])
-# def getPath2():
-#     sites_of_grace.createMap("sites.json")
-#     path = sites_of_grace.findPath("Gravesite Plain", "Scorched Ruins")
-#     return path
 def createForm():
     return render_template('form.html')
 
@@ -26,9 +22,12 @@ def createForm():
 def getPath():
     try:
         sites_of_grace.createMap("sites.json")
-        text = request.form["destination"]
-        destinationName = text.upper()
-        path = sites_of_grace.findPath("GP-GP", destinationName)
+        destinationID = request.form["destination"]
+        destinationIDUpper = destinationID.upper()
+        sourceID = request.form["source"]
+        sourceIDUpper = sourceID.upper()
+        path = sites_of_grace.findPath("Gravesite Plain", "Three-Path Cross")
+        #path = sites_of_grace.findPath(destinationIDUpper, sourceIDUpper)
         return path
     except Exception as e:
         app.logger.error('Error in getPath: %s', str(e))

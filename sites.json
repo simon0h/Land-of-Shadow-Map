@@ -16,7 +16,11 @@
         "region": "Gravesite Plain",
         "id": "SR-GP",
         "isDungeon": false,
-        "neighbors": []
+        "neighbors": [
+            {
+                "id": "TPC-GP"
+            }
+        ]
     },
 
     {
