@@ -33,17 +33,14 @@ class Map:
 
 map = Map()
 
-def createMap(sitesPath):
-    f = open(sitesPath)
-    data = json.load(f)
-    for indvSite in data:
+def createMap(sitesDoc):
+    for indvSite in sitesDoc:
         site = SitesOfGrace(indvSite["name"], indvSite["region"], indvSite["id"], indvSite["isDungeon"])
         for neighbor in indvSite["neighbors"]:
             site.neighborsID.append(neighbor["id"])
         map.sitesOfGraces[indvSite["id"]] = site
         map.sitesOfGracesFullName[indvSite["name"]] = indvSite["id"]
         #print(indvSite["name"], indvSite["id"])
-    f.close()
 
     for i in map.sitesOfGraces:
         for neighborID in map.sitesOfGraces[i].neighborsID:

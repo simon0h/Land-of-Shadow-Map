@@ -1,6 +1,6 @@
 [
     {
-        "name": "Gravesite Plain",
+        "name": "GRAVESITE PLAIN",
         "region": "Gravesite Plain",
         "id": "GP-GP",
         "isDungeon": false,
@@ -12,7 +12,7 @@
     },
 
     {
-        "name": "Scorched Ruins",
+        "name": "SCORCHED RUINS",
         "region": "Gravesite Plain",
         "id": "SR-GP",
         "isDungeon": false,
@@ -24,7 +24,7 @@
     },
 
     {
-        "name": "Three-Path Cross",
+        "name": "THREE-PATH CROSS",
         "region": "Gravesite Plain",
         "id": "TPC-GP",
         "isDungeon": false,
@@ -32,7 +32,7 @@
     },
 
     {
-        "name": "Greatbridge, North",
+        "name": "GREATBRIDGE, NORTH",
         "region": "Gravesite Plain",
         "id": "GN-GP",
         "isDungeon": false,
@@ -40,7 +40,7 @@
     },
 
     {
-        "name": "Main Gate Cross",
+        "name": "MAIN GATE CROSS",
         "region": "Gravesite Plain",
         "id": "MGC-GP",
         "isDungeon": false,
@@ -48,7 +48,7 @@
     },
 
     {
-        "name": "Cliffroad Terminus",
+        "name": "CLIFFROAD TERMINUS",
         "region": "Gravesite Plain",
         "id": "CT-GP",
         "isDungeon": false,
@@ -56,7 +56,7 @@
     },
 
     {
-        "name": "Castle Front",
+        "name": "CASTLE FRONT",
         "region": "Gravesite Plain",
         "id": "CF-GP",
         "isDungeon": false,
@@ -64,7 +64,7 @@
     },
 
     {
-        "name": "Pillar Path Cross",
+        "name": "PILLAR PATH CROSS",
         "region": "Gravesite Plain",
         "id": "PPC-GP",
         "isDungeon": false,
@@ -72,7 +72,7 @@
     },
 
     {
-        "name": "Pillar Path Waypoint",
+        "name": "PILLAR PATH WAYPOINT",
         "region": "Gravesite Plain",
         "id": "PPW-GP",
         "isDungeon": false,
@@ -80,7 +80,7 @@
     },
 
     {
-        "name": "Ellac River Cave",
+        "name": "ELLAC RIVER CAVE",
         "region": "Gravesite Plain",
         "id": "ERC-GP",
         "isDungeon": false,
@@ -88,7 +88,7 @@
     },
 
     {
-        "name": "Ellac River Downstream",
+        "name": "ELLAC RIVER DOWNSTREAM",
         "region": "Gravesite Plain",
         "id": "ERD-GP",
         "isDungeon": false,
@@ -96,7 +96,7 @@
     },
 
     {
-        "name": "Fog Rift Catacombs",
+        "name": "FOG RIFT CATACOMBS",
         "region": "Gravesite Plain",
         "id": "FRC-GP",
         "isDungeon": false,
@@ -104,7 +104,7 @@
     },
 
     {
-        "name": "Belurat Gaol",
+        "name": "BELURAT GAOL",
         "region": "Gravesite Plain",
         "id": "BG-GP",
         "isDungeon": false,
@@ -112,7 +112,7 @@
     },
 
     {
-        "name": "Ruined Forge Lava Intake",
+        "name": "RUINED FORGE LAVA INTAKE",
         "region": "Gravesite Plain",
         "id": "RFLI-GP",
         "isDungeon": false,
@@ -120,7 +120,7 @@
     },
 
     {
-        "name": "Dragon's Pit",
+        "name": "DRAGON'S PIT",
         "region": "Gravesite Plain",
         "id": "DP-GP",
         "isDungeon": false,
@@ -128,7 +128,7 @@
     },
 
     {
-        "name": "Dragon's Pit Terminus",
+        "name": "DRAGON'S PIT TERMINUS",
         "region": "Gravesite Plain",
         "id": "DPT-GP",
         "isDungeon": false,
@@ -136,7 +136,7 @@
     },
 
     {
-        "name": "Rivermouth Cave",
+        "name": "RIVERMOUTH CAVE",
         "region": "Gravesite Plain",
         "id": "RMC-GP",
         "isDungeon": false,
@@ -144,7 +144,7 @@
     },
 
     {
-        "name": "Castle Ensis Checkpoint",
+        "name": "CASTLE ENSIS CHECKPOINT",
         "region": "Castle Ensis",
         "id": "CEC-CE",
         "isDungeon": false,
@@ -152,7 +152,7 @@
     },
 
     {
-        "name": "Castle-Lord's Chamber",
+        "name": "CASTLE-LORD'S CHAMBER",
         "region": "Castle Ensis",
         "id": "CLC-CE",
         "isDungeon": false,
@@ -160,7 +160,7 @@
     },
 
     {
-        "name": "Ensis Moongazing Grounds",
+        "name": "ENSIS MOONGAZING GROUNDS",
         "region": "Castle Ensis",
         "id": "EMG-CE",
         "isDungeon": false,
@@ -168,7 +168,7 @@
     },
 
     {
-        "name": "Cerulean Coast",
+        "name": "CERULEAN COAST",
         "region": "Cerulean Coast",
         "id": "CC-CC",
         "isDungeon": false,
@@ -176,7 +176,7 @@
     },
 
     {
-        "name": "Cerulean Coast West",
+        "name": "CERULEAN COAST WEST",
         "region": "Cerulean Coast",
         "id": "CCW-CC",
         "isDungeon": false,
@@ -184,7 +184,7 @@
     },
 
     {
-        "name": "Cerulean Coast Cross",
+        "name": "CERULEAN COAST CROSS",
         "region": "Cerulean Coast",
         "id": "CCC-CC",
         "isDungeon": false,
@@ -192,7 +192,7 @@
     },
 
     {
-        "name": "The Fissure",
+        "name": "THE FISSURE",
         "region": "Cerulean Coast",
         "id": "TF-CC",
         "isDungeon": false,
@@ -200,7 +200,7 @@
     },
 
     {
-        "name": "Finger Ruins of Rhia",
+        "name": "FINGER RUINS OF RHIA",
         "region": "Cerulean Coast",
         "id": "FRR-CC",
         "isDungeon": false,
@@ -208,7 +208,7 @@
     },
 
     {
-        "name": "Charo's Hidden Grave",
+        "name": "CHARO'S HIDDEN GRAVE",
         "region": "Charo's Hidden Grave",
         "id": "CHG-CHG",
         "isDungeon": false,
@@ -216,7 +216,7 @@
     },
 
     {
-        "name": "Lamenter's Gaol",
+        "name": "LAMENTER'S GAOL",
         "region": "Charo's Hidden Grave",
         "id": "LG-CHG",
         "isDungeon": false,
@@ -224,7 +224,7 @@
     },
 
     {
-        "name": "Stone Coffin Fissure",
+        "name": "STONE COFFIN FISSURE",
         "region": "Stone Coffin Fissure",
         "id": "SCF-SCF",
         "isDungeon": false,
@@ -232,7 +232,7 @@
     },
 
     {
-        "name": "Fissure Cross",
+        "name": "FISSURE CROSS",
         "region": "Stone Coffin Fissure",
         "id": "FC-SCF",
         "isDungeon": false,
@@ -240,7 +240,7 @@
     },
 
     {
-        "name": "Fissure Waypoint",
+        "name": "FISSURE WAYPOINT",
         "region": "Stone Coffin Fissure",
         "id": "FW-SCF",
         "isDungeon": false,
@@ -248,7 +248,7 @@
     },
 
     {
-        "name": "Fissure Depths",
+        "name": "FISSURE DEPTHS",
         "region": "Stone Coffin Fissure",
         "id": "FD-SCF",
         "isDungeon": false,
@@ -256,7 +256,7 @@
     },
 
     {
-        "name": "Garden of Deep Purple",
+        "name": "GARDEN OF DEEP PURPLE",
         "region": "Stone Coffin Fissure",
         "id": "GDP-SCF",
         "isDungeon": false,
@@ -264,7 +264,7 @@
     },
 
     {
-        "name": "Grand Altar of Dragon Communion",
+        "name": "GRAND ALTAR OF DRAGON COMMUNION",
         "region": "Foot of the Jagged Peak",
         "id": "GADC-FOTJP",
         "isDungeon": false,
@@ -272,7 +272,7 @@
     },
 
     {
-        "name": "Foot of the Jagged Peak",
+        "name": "FOOT OF THE JAGGED PEAK",
         "region": "Foot of the Jagged Peak",
         "id": "FOTJP-FOTJP",
         "isDungeon": false,
@@ -280,7 +280,7 @@
     },
 
     {
-        "name": "Jagged Peak Mountainside",
+        "name": "JAGGED PEAK MOUNTAINSIDE",
         "region": "Jagged Peak",
         "id": "JPM-JP",
         "isDungeon": false,
@@ -288,7 +288,7 @@
     },
 
     {
-        "name": "Jagged Peak Summit",
+        "name": "JAGGED PEAK SUMMIT",
         "region": "Jagged Peak",
         "id": "JPS-JP",
         "isDungeon": false,
@@ -296,7 +296,7 @@
     },
 
     {
-        "name": "Rest of the Dead Dragon",
+        "name": "REST OF THE DEAD DRAGON",
         "region": "Jagged Peak",
         "id": "ROTDD-JP",
         "isDungeon": false,
@@ -304,7 +304,7 @@
     },
 
     {
-        "name": "Belurat, Tower Settlement",
+        "name": "BELURAT, TOWER SETTLEMENT",
         "region": "Belurat, Tower Settlement",
         "id": "BTS-BTS",
         "isDungeon": false,
@@ -312,7 +312,7 @@
     },
     
     {
-        "name": "Small Private Altar",
+        "name": "SMALL PRIVATE ALTAR",
         "region": "Belurat, Tower Settlement",
         "id": "SPA-BTS",
         "isDungeon": false,
@@ -320,7 +320,7 @@
     },
     
     {
-        "name": "Stagefront",
+        "name": "STAGEFRONT",
         "region": "Belurat, Tower Settlement",
         "id": "S-BTS",
         "isDungeon": false,
@@ -328,7 +328,7 @@
     },
     
     {
-        "name": "Theatre of the Divine Beast",
+        "name": "THEATRE OF THE DIVINE BEAST",
         "region": "Belurat, Tower Settlement",
         "id": "TOTDB-BTS",
         "isDungeon": false,
@@ -336,7 +336,7 @@
     },
     
     {
-        "name": "Enir-Ilim: Outer Wall",
+        "name": "ENIR-ILIM: OUTER WALL",
         "region": "Enir-Ilim",
         "id": "EIOW-EI",
         "isDungeon": false,
@@ -344,7 +344,7 @@
     },
     
     {
-        "name": "First Rise",
+        "name": "FIRST RISE",
         "region": "Enir-Ilim",
         "id": "FR-EI",
         "isDungeon": false,
@@ -352,7 +352,7 @@
     },
     
     {
-        "name": "Spiral Rise",
+        "name": "SPIRAL RISE",
         "region": "Enir-Ilim",
         "id": "SR-EI",
         "isDungeon": false,
@@ -360,7 +360,7 @@
     },
     
     {
-        "name": "Cleansing Chamber Anteroom",
+        "name": "CLEANSING CHAMBER ANTEROOM",
         "region": "Enir-Ilim",
         "id": "CCA-EI",
         "isDungeon": false,
@@ -368,7 +368,7 @@
     },
     
     {
-        "name": "Divine Gate Front Staircase",
+        "name": "DIVINE GATE FRONT STAIRCASE",
         "region": "Enir-Ilim",
         "id": "DGFS-EI",
         "isDungeon": false,
@@ -376,7 +376,7 @@
     },
     
     {
-        "name": "Gate of Divinity",
+        "name": "GATE OF DIVINITY",
         "region": "Enir-Ilim",
         "id": "GOD-EI",
         "isDungeon": false,
@@ -384,7 +384,7 @@
     },
     
     {
-        "name": "Viaduct Minor Tower",
+        "name": "VIADUCT MINOR TOWER",
         "region": "Ancient Ruins of Rauh",
         "id": "VMT-ARR",
         "isDungeon": false,
@@ -392,7 +392,7 @@
     },
     
     {
-        "name": "Rauh Ancient Ruins, East",
+        "name": "RAUH ANCIENT RUINS, EAST",
         "region": "Ancient Ruins of Rauh",
         "id": "RARE-ARR",
         "isDungeon": false,
@@ -400,7 +400,7 @@
     },
     
     {
-        "name": "Rauh Ancient Ruins, West",
+        "name": "RAUH ANCIENT RUINS, WEST",
         "region": "Ancient Ruins of Rauh",
         "id": "RARW-ARR",
         "isDungeon": false,
@@ -408,7 +408,7 @@
     },
     
     {
-        "name": "Ancient Ruins, Grand Stairway",
+        "name": "ANCIENT RUINS, GRAND STAIRWAY",
         "region": "Ancient Ruins of Rauh",
         "id": "ARGS-ARR",
         "isDungeon": false,
@@ -416,7 +416,7 @@
     },
     
     {
-        "name": "Church of the Bud, Main Entrance",
+        "name": "CHURCH OF THE BUD, MAIN ENTRANCE",
         "region": "Ancient Ruins of Rauh",
         "id": "COTBME-ARR",
         "isDungeon": false,
@@ -424,7 +424,7 @@
     },
     
     {
-        "name": "Church of the Bud",
+        "name": "CHURCH OF THE BUD",
         "region": "Ancient Ruins of Rauh",
         "id": "COTB-ARR",
         "isDungeon": false,
@@ -432,7 +432,7 @@
     },
     
     {
-        "name": "Ancient Ruins Base",
+        "name": "ANCIENT RUINS BASE",
         "region": "Rauh Base",
         "id": "ARB-RB",
         "isDungeon": false,
@@ -440,7 +440,7 @@
     },
     
     {
-        "name": "Temple Town Ruins",
+        "name": "TEMPLE TOWN RUINS",
         "region": "Rauh Base",
         "id": "TTR-RB",
         "isDungeon": false,
@@ -448,7 +448,7 @@
     },
     
     {
-        "name": "Ravine North",
+        "name": "RAVINE NORTH",
         "region": "Rauh Base",
         "id": "RN-RB",
         "isDungeon": false,
@@ -456,7 +456,7 @@
     },
     
     {
-        "name": "Scorpion River Catacombs",
+        "name": "SCORPION RIVER CATACOMBS",
         "region": "Rauh Base",
         "id": "SRC-RB",
         "isDungeon": false,
@@ -464,7 +464,7 @@
     },
     
     {
-        "name": "Taylew's Ruined Forge",
+        "name": "TAYLEW'S RUINED FORGE",
         "region": "Rauh Base",
         "id": "TRF-RB",
         "isDungeon": false,
@@ -472,7 +472,7 @@
     },
 
     {
-        "name": "Highroad Cross",
+        "name": "HIGHROAD CROSS",
         "region": "Scadu Altus",
         "id": "HC-SA",
         "isDungeon": false,
@@ -480,7 +480,7 @@
     },
     
     {
-        "name": "Scadu Altus, West",
+        "name": "SCADU ALTUS, WEST",
         "region": "Scadu Altus",
         "id": "SAW-SA",
         "isDungeon": false,
@@ -488,7 +488,7 @@
     },
     
     {
-        "name": "Moorth Ruins",
+        "name": "MOORTH RUINS",
         "region": "Scadu Altus",
         "id": "MR-SA",
         "isDungeon": false,
@@ -496,7 +496,7 @@
     },
     
     {
-        "name": "Moorth Highway, South",
+        "name": "MOORTH HIGHWAY, SOUTH",
         "region": "Scadu Altus",
         "id": "MHS-SA",
         "isDungeon": false,
@@ -504,7 +504,7 @@
     },
     
     {
-        "name": "Fort of Reprimand",
+        "name": "FORT OF REPRIMAND",
         "region": "Scadu Altus",
         "id": "FOR-SA",
         "isDungeon": false,
@@ -512,7 +512,7 @@
     },
     
     {
-        "name": "Behind the Fort of Reprimand",
+        "name": "BEHIND THE FORT OF REPRIMAND",
         "region": "Scadu Altus",
         "id": "BTFOR-SA",
         "isDungeon": false,
@@ -520,7 +520,7 @@
     },
     
     {
-        "name": "Scaduview Cross",
+        "name": "SCADUVIEW CROSS",
         "region": "Scadu Altus",
         "id": "SC-SA",
         "isDungeon": false,
@@ -528,7 +528,7 @@
     },
     
     {
-        "name": "Bonny Village",
+        "name": "BONNY VILLAGE",
         "region": "Scadu Altus",
         "id": "BV-SA",
         "isDungeon": false,
@@ -536,7 +536,7 @@
     },
     
     {
-        "name": "Bridge Leading to the Village",
+        "name": "BRIDGE LEADING TO THE VILLAGE",
         "region": "Scadu Altus",
         "id": "BLTTV-SA",
         "isDungeon": false,
@@ -544,7 +544,7 @@
     },
     
     {
-        "name": "Church District Highroad",
+        "name": "CHURCH DISTRICT HIGHROAD",
         "region": "Scadu Altus",
         "id": "CDH-SA",
         "isDungeon": false,
@@ -552,7 +552,7 @@
     },
     
     {
-        "name": "Cathedral of Manus Metyr",
+        "name": "CATHEDRAL OF MANUS METYR",
         "region": "Scadu Altus",
         "id": "COMM-SA",
         "isDungeon": false,
@@ -560,7 +560,7 @@
     },
     
     {
-        "name": "Finger Birthing Grounds",
+        "name": "FINGER BIRTHING GROUNDS",
         "region": "Scadu Altus",
         "id": "FBG-SA",
         "isDungeon": false,
@@ -568,7 +568,7 @@
     },
     
     {
-        "name": "Castle Watering Hole",
+        "name": "CASTLE WATERING HOLE",
         "region": "Scadu Altus",
         "id": "CWH-SA",
         "isDungeon": false,
@@ -576,7 +576,7 @@
     },
     
     {
-        "name": "Recluses' River Upstream",
+        "name": "RECLUSES' RIVER UPSTREAM",
         "region": "Scadu Altus",
         "id": "RRU-SA",
         "isDungeon": false,
@@ -584,7 +584,7 @@
     },
     
     {
-        "name": "Recluses' River Downstream",
+        "name": "RECLUSES' RIVER DOWNSTREAM",
         "region": "Scadu Altus",
         "id": "RRD-SA",
         "isDungeon": false,
@@ -592,7 +592,7 @@
     },
     
     {
-        "name": "Darklight Catacombs",
+        "name": "DARKLIGHT CATACOMBS",
         "region": "Scadu Altus",
         "id": "DC-SA",
         "isDungeon": false,
@@ -600,7 +600,7 @@
     },
     
     {
-        "name": "Bonny Gaol",
+        "name": "BONNY GAOL",
         "region": "Scadu Altus",
         "id": "BG-SA",
         "isDungeon": false,
@@ -608,7 +608,7 @@
     },
     
     {
-        "name": "Ruined Forged of Starfall Past",
+        "name": "RUINED FORGED OF STARFALL PAST",
         "region": "Scadu Altus",
         "id": "RFOSP-SA",
         "isDungeon": false,
@@ -616,7 +616,7 @@
     },
     
     {
-        "name": "Forsaken Graveyard",
+        "name": "FORSAKEN GRAVEYARD",
         "region": "Abyssal Woods",
         "id": "FG-AW",
         "isDungeon": false,
@@ -624,7 +624,7 @@
     },
     
     {
-        "name": "Woodland Trail",
+        "name": "WOODLAND TRAIL",
         "region": "Abyssal Woods",
         "id": "WT-AW",
         "isDungeon": false,
@@ -632,7 +632,7 @@
     },
     
     {
-        "name": "Church Ruins",
+        "name": "CHURCH RUINS",
         "region": "Abyssal Woods",
         "id": "CR-AW",
         "isDungeon": false,
@@ -640,7 +640,7 @@
     },
     
     {
-        "name": "Divided Fall",
+        "name": "DIVIDED FALL",
         "region": "Abyssal Woods",
         "id": "DF-AW",
         "isDungeon": false,
@@ -648,7 +648,7 @@
     },
     
     {
-        "name": "Abyssal Woods",
+        "name": "ABYSSAL WOODS",
         "region": "Abyssal Woods",
         "id": "AW-AW",
         "isDungeon": false,
@@ -656,7 +656,7 @@
     },
     
     {
-        "name": "Manse Hall",
+        "name": "MANSE HALL",
         "region": "Midra's Manse",
         "id": "MH-MM",
         "isDungeon": false,
@@ -664,7 +664,7 @@
     },
     
     {
-        "name": "Midra's Library",
+        "name": "MIDRA'S LIBRARY",
         "region": "Midra's Manse",
         "id": "ML-MM",
         "isDungeon": false,
@@ -672,7 +672,7 @@
     },
     
     {
-        "name": "Second Floor Chamber",
+        "name": "SECOND FLOOR CHAMBER",
         "region": "Midra's Manse",
         "id": "SFC-MM",
         "isDungeon": false,
@@ -680,7 +680,7 @@
     },
     
     {
-        "name": "Discussion Chamber",
+        "name": "DISCUSSION CHAMBER",
         "region": "Midra's Manse",
         "id": "DC-MM",
         "isDungeon": false,
@@ -688,7 +688,7 @@
     },
 
     {
-        "name": "Shadow Keep Main Gate",
+        "name": "SHADOW KEEP MAIN GATE",
         "region": "Shadow Keep",
         "id": "SKMG-SK",
         "isDungeon": false,
@@ -696,7 +696,7 @@
     },
     
     {
-        "name": "Main Gate Plaza",
+        "name": "MAIN GATE PLAZA",
         "region": "Shadow Keep",
         "id": "MGP-SK",
         "isDungeon": false,
@@ -704,7 +704,7 @@
     },
     
     {
-        "name": "Church District entrance",
+        "name": "CHURCH DISTRICT ENTRANCE",
         "region": "Shadow Keep, Church District",
         "id": "CDE-SKCD",
         "isDungeon": false,
@@ -712,7 +712,7 @@
     },
     
     {
-        "name": "Sunken Chapel",
+        "name": "SUNKEN CHAPEL",
         "region": "Shadow Keep, Church District",
         "id": "SC-SKCD",
         "isDungeon": false,
@@ -720,7 +720,7 @@
     },
     
     {
-        "name": "Tree-Worship Passage",
+        "name": "TREE-WORSHIP PASSAGE",
         "region": "Shadow Keep, Church District",
         "id": "TWP-SKCD",
         "isDungeon": false,
@@ -728,7 +728,7 @@
     },
     
     {
-        "name": "Tree-Worship Sanctum",
+        "name": "TREE-WORSHIP SANCTUM",
         "region": "Shadow Keep, Church District",
         "id": "TWS-SKCD",
         "isDungeon": false,
@@ -736,7 +736,7 @@
     },
     
     {
-        "name": "Storehouse, First Floor",
+        "name": "STOREHOUSE, FIRST FLOOR",
         "region": "Specimen Storehouse",
         "id": "SFF-SS",
         "isDungeon": false,
@@ -744,7 +744,7 @@
     },
     
     {
-        "name": "Storehouse, Fourth Floor",
+        "name": "STOREHOUSE, FOURTH FLOOR",
         "region": "Specimen Storehouse",
         "id": "SFoF-SS",
         "isDungeon": false,
@@ -752,7 +752,7 @@
     },
     
     {
-        "name": "Storehouse, Seventh Floor",
+        "name": "STOREHOUSE, SEVENTH FLOOR",
         "region": "Specimen Storehouse",
         "id": "SSF-SS",
         "isDungeon": false,
@@ -760,7 +760,7 @@
     },
     
     {
-        "name": "Dark Chamber Entrance",
+        "name": "DARK CHAMBER ENTRANCE",
         "region": "Specimen Storehouse",
         "id": "DCE-SS",
         "isDungeon": false,
@@ -768,7 +768,7 @@
     },
     
     {
-        "name": "Storehouse, Back Section",
+        "name": "STOREHOUSE, BACK SECTION",
         "region": "Specimen Storehouse",
         "id": "SBS-SS",
         "isDungeon": false,
@@ -776,7 +776,7 @@
     },
     
     {
-        "name": "Storehouse, Loft",
+        "name": "STOREHOUSE, LOFT",
         "region": "Specimen Storehouse",
         "id": "SL-SS",
         "isDungeon": false,
@@ -784,7 +784,7 @@
     },
     
     {
-        "name": "West Rampart",
+        "name": "WEST RAMPART",
         "region": "Specimen Storehouse",
         "id": "WR-SS",
         "isDungeon": false,
@@ -792,7 +792,7 @@
     },
     
     {
-        "name": "Messmer's Dark Chamber",
+        "name": "MESSMER'S DARK CHAMBER",
         "region": "Specimen Storehouse",
         "id": "MDC-SS",
         "isDungeon": false,
@@ -800,7 +800,7 @@
     },
     
     {
-        "name": "Scaduview",
+        "name": "SCADUVIEW",
         "region": "Scaduview",
         "id": "S-S",
         "isDungeon": false,
@@ -808,7 +808,7 @@
     },
     
     {
-        "name": "Shadow Keep, Back Gate",
+        "name": "SHADOW KEEP, BACK GATE",
         "region": "Scaduview",
         "id": "SKBG-S",
         "isDungeon": false,
@@ -816,7 +816,7 @@
     },
     
     {
-        "name": "Scadutree Base",
+        "name": "SCADUTREE BASE",
         "region": "Scaduview",
         "id": "SB-S",
         "isDungeon": false,
@@ -824,7 +824,7 @@
     },
     
     {
-        "name": "Hinterland",
+        "name": "HINTERLAND",
         "region": "Scaduview",
         "id": "H-S",
         "isDungeon": false,
@@ -832,7 +832,7 @@
     },
     
     {
-        "name": "Hinterland Bridge",
+        "name": "HINTERLAND BRIDGE",
         "region": "Scaduview",
         "id": "HB-S",
         "isDungeon": false,
@@ -840,7 +840,7 @@
     },
     
     {
-        "name": "Fingerstone Hill",
+        "name": "FINGERSTONE HILL",
         "region": "Scaduview",
         "id": "FH-S",
         "isDungeon": false,

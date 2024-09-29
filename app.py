@@ -1,10 +1,15 @@
 import json
 import logging
 from flask import Flask, request, render_template, abort
+from pymongo import MongoClient
 
 import sites_of_grace
 
 app = Flask(__name__)
+
+client = MongoClient("localhost", 27017) #create a client instance of MongoDB
+db = client.flask_db #create/read a database within the client instance called flask_db
+locations = db.locations #create/read a collection called locations
 
 # Set up logging
 logging.basicConfig(level=logging.DEBUG)
@@ -21,18 +26,19 @@ def createForm():
 @app.route("/getpath", methods=["GET"])
 def getPath():
     try:
-        sites_of_grace.createMap("sites.json")
+        allLocs = locations.find()
+        sites_of_grace.createMap(allLocs)
         destinationID = request.args.get("destination", "")
         destinationIDUpper = destinationID.upper()
         sourceID = request.args.get("source", "")
         sourceIDUpper = sourceID.upper()
-        path = sites_of_grace.findPath("Gravesite Plain", "Three-Path Cross")
-        #path = sites_of_grace.findPath(destinationIDUpper, sourceIDUpper)
-        return render_template("results.html", path=path)
-        #return render_template(path)
+        #path = sites_of_grace.findPath("Gravesite Plain", "Three-Path Cross")
+        #print(destinationIDUpper, sourceIDUpper)
+        path = sites_of_grace.findPath(sourceIDUpper, destinationIDUpper)
+        return render_template("results.html", path = path)
     except Exception as e:
         app.logger.error("Error in getPath: %s", str(e))
         abort(403)
 
 if __name__ == "__main__":
-   app.run(debug=True)
+   app.run()
