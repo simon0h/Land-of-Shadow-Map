@@ -2,5 +2,9 @@
     <input name="source" placeholder="source" value="Gravesite Plain">
     <input name="destination" placeholder="destination" value="Three-Path Cross">
     <input type="submit">
-    <p>{{ path }}</p>
+    <ul>
+        {% for item in path %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
 </form>

@@ -36,8 +36,8 @@ def getPath():
         sourceIDUpper = sourceID.upper()
         #path = sites_of_grace.findPath("Gravesite Plain", "Three-Path Cross")
         #print(destinationIDUpper, sourceIDUpper)
-        path = json.loads(sites_of_grace.findPath(sourceIDUpper, destinationIDUpper))
-        return render_template("results.html", path = path["path"])
+        pathJSON = json.loads(sites_of_grace.findPath(sourceIDUpper, destinationIDUpper))
+        return render_template("results.html", path = pathJSON["pathName"])
     except Exception as e:
         app.logger.error("Error in getPath: %s", str(e))
         abort(403)

@@ -10,19 +10,21 @@ class SitesOfGrace:
         self.neighborsObj = []
         self.visited = False
 
-    def findPath(self, path, id) -> bool:
+    def findPath(self, pathID, pathName, id) -> bool:
         #DFS, not shortest
         #rewrite
         if (self.id == id):
-            path.append(self.id)
+            pathID.append(self.id)
+            pathName.append(self.name)
             return True
         if (self.visited):
             return False
         self.visited = True
         for neighbor in self.neighborsObj:
-            if neighbor.findPath(path, id):
+            if neighbor.findPath(pathID, pathName, id):
                 self.visited = False
-                path.append(self.id)
+                pathID.append(self.id)
+                pathName.append(self.name)
                 return True
         self.visited = False
         return False
@@ -58,13 +60,17 @@ def findPath(source, destination):
     if (destinationIDName == "none"):
         return "Destination not found"
     obj = map.sitesOfGraces[sourceIDName]
-    path = []
-    obj.findPath(path, destinationIDName)
-    pathDetails = {"source": sourceIDName, "destination": destinationIDName, "pathExists": False, "path": path}
-    if (len(path) > 0):
+    pathID = []
+    pathName = []
+    obj.findPath(pathID, pathName, destinationIDName)
+    pathDetails = {"source": sourceIDName, "destination": destinationIDName, "pathExists": False, "pathID": pathID, "pathName": pathName}
+    if (len(pathID) > 0):
         pathDetails["pathExists"] = True
     jsonPath = json.dumps(pathDetails)
     return jsonPath
 
 def getID(fullName):
     return map.sitesOfGracesFullName.get(fullName, "none")
+
+def getNames(ID):
+    return map.sitesOfGraces.get(ID)
