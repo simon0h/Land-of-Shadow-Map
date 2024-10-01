@@ -1,6 +1,6 @@
 import json
 
-class SitesOfGrace:
+class SiteOfGrace:
     def __init__(self, name, region, id, isDungeon):
         self.name = name
         self.region = region
@@ -37,7 +37,7 @@ map = Map()
 
 def createMap(sitesDoc):
     for indvSite in sitesDoc:
-        site = SitesOfGrace(indvSite["name"], indvSite["region"], indvSite["id"], indvSite["isDungeon"])
+        site = SiteOfGrace(indvSite["name"], indvSite["region"], indvSite["id"], indvSite["isDungeon"])
         for neighbor in indvSite["neighbors"]:
             site.neighborsID.append(neighbor["id"])
         map.sitesOfGraces[indvSite["id"]] = site
@@ -49,25 +49,24 @@ def createMap(sitesDoc):
             obj = map.sitesOfGraces[neighborID]
             map.sitesOfGraces[i].neighborsObj.append(obj)
 
-def findPath(source, destination):
+def findPath(sourceName, destinationName):
     #print(source, destination)
-    sourceIDName = getID(source)
-    destinationIDName = getID(destination)
+    sourceIDName = getID(sourceName)
+    destinationIDName = getID(destinationName)
     if (sourceIDName == "none" and destinationIDName == "none"):
         return "Source and destination not found"
     if (sourceIDName == "none"):
         return "Source not found"
     if (destinationIDName == "none"):
         return "Destination not found"
-    obj = map.sitesOfGraces[sourceIDName]
+    sourceSite = map.sitesOfGraces[sourceIDName]
     pathID = []
     pathName = []
-    obj.findPath(pathID, pathName, destinationIDName)
+    sourceSite.findPath(pathID, pathName, destinationIDName)
     pathDetails = {"source": sourceIDName, "destination": destinationIDName, "pathExists": False, "pathID": pathID, "pathName": pathName}
     if (len(pathID) > 0):
         pathDetails["pathExists"] = True
-    jsonPath = json.dumps(pathDetails)
-    return jsonPath
+    return pathDetails
 
 def getID(fullName):
     return map.sitesOfGracesFullName.get(fullName, "none")

@@ -11,7 +11,7 @@ client = MongoClient("localhost", 27017) #create a client instance of MongoDB
 db = client.flask_db #create/read a database within the client instance called flask_db
 locations = db.locations #create/read a collection called locations
 
-# Set up logging
+#set up logging
 logging.basicConfig(level=logging.DEBUG)
 
 @app.errorhandler(403)
@@ -36,8 +36,8 @@ def getPath():
         sourceIDUpper = sourceID.upper()
         #path = sites_of_grace.findPath("Gravesite Plain", "Three-Path Cross")
         #print(destinationIDUpper, sourceIDUpper)
-        pathJSON = json.loads(sites_of_grace.findPath(sourceIDUpper, destinationIDUpper))
-        return render_template("results.html", path = pathJSON["pathName"])
+        pathDict = sites_of_grace.findPath(sourceIDUpper, destinationIDUpper)
+        return render_template("results.html", path = pathDict["pathName"])
     except Exception as e:
         app.logger.error("Error in getPath: %s", str(e))
         abort(403)
