@@ -43,12 +43,6 @@
 </style>
 
 <form id = "pathForm" method = "GET" action = "{{ url_for('getPath') }}">
-    <ul>
-        <h1>Path</h1>
-        {% for item in path %}
-        <li>{{ item }}</li>
-        {% endfor %}
-    </ul>
     <div class = "container">
         <ul class = "list" id = "sourceList">
             <h1>Source</h1>
