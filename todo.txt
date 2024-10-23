@@ -1,0 +1,2 @@
+- Upload JSON file of the map and write to DB
+- Clear what's been uploaded
