@@ -39,7 +39,6 @@ def createForm():
 @app.route("/getpath", methods=["GET"])
 def getPath():
     try:
-        return "hello"
         # print("REQUEST --------------", request)
         # print("REQUEST ARGS --------------", request.args)
         destinationID = request.args.get("destination", "")
@@ -49,6 +48,7 @@ def getPath():
         #path = sites_of_grace.findPath("Gravesite Plain", "Three-Path Cross")
         #print("----------------", destinationIDUpper, "     ", sourceIDUpper)
         pathDict = sites_of_grace.findPath(sourceIDUpper, destinationIDUpper)
+        return json.dumps(pathDict)
         return render_template("results.html", source = sites_of_grace.map.sitesOfGracesFullName, destination = sites_of_grace.map.sitesOfGracesFullName, path = pathDict["pathName"])
     except Exception as e:
         app.logger.error("Error in getPath: %s", str(e))

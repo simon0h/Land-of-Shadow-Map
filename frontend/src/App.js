@@ -1,8 +1,16 @@
 import React, { useState } from "react";
 import PathForm from './PathForm';
 
+import "./App.css";
+
 function App() {
-	const [sourceSites, setSourceSites] = React.useState('');
+	const [sourceSites, setSourceSites] = useState('');
+	const [selectedSource, setSelectedSource] = useState(null);
+  	const [selectedDestination, setSelectedDestination] = useState(null);
+	const [sourceChanged, setsourceChanged] = useState(false);
+	const [destinationChanged, setDestinationChanged] = useState(null);
+	const [destAndSourceSel, setDestAndSourceSel] = useState(false);
+	const [path, setPath] = useState([]);
 
 	React.useEffect(() => {
 		const fetchPromise = fetch('http://127.0.0.1:5000/getmapdata');
@@ -25,14 +33,63 @@ function App() {
 		});
 	}, []);
 
+	React.useEffect(() => {
+		if (sourceChanged && destinationChanged) {
+			setsourceChanged(false);
+			setDestinationChanged(false);
+			setDestAndSourceSel(false);
+			const fetchPath = fetch(`http://127.0.0.1:5000/getpath?source=${selectedSource}&destination=${selectedDestination}`)
+				.then(response => response.json())
+				.then(data => {
+					console.log(data.pathName)
+					setPath(data.pathName)
+				})
+				.catch(error => {
+					console.error('Path request failed:', error);
+				});
+		}
+	}, [destAndSourceSel]); 
+
+	const handleSourceSelect = (key) => {
+		setSelectedSource(key);
+		setsourceChanged(true);
+	};
+	
+	const handleDestinationSelect = (key) => {
+		setSelectedDestination(key);
+		setDestinationChanged(true);
+	};
+
+	const getPath = (e) => {
+		e.preventDefault();
+		console.log('Selected source:', selectedSource);
+    	console.log('Selected destination:', selectedDestination);
+		if (sourceChanged && destinationChanged) {
+			setDestAndSourceSel(true);
+		}
+	}
+
   	return (
-		<div className="App">
-			<div>
-				{Object.entries(sourceSites).map(([key, value]) => (
-					<div key={key}>
-						{key}
-					</div> ))}
-			</div>
+		<div className = "App">
+			<form onSubmit = {getPath}>
+				<div className = "container">
+					<ul className = "list" id = "sourceList">
+						<h1>Source</h1>
+						{Object.entries(sourceSites).map(([key, value]) => (
+						<div key={key}>
+							<li><button type = "button" className = "sourceButton" value = {key} onClick={() => handleSourceSelect(key)}>{key}</button></li>
+						</div> ))}
+					</ul>
+					<ul className = "list" id = "destinationList">
+						<h1>Destination</h1>
+						{Object.entries(sourceSites).map(([key, value]) => (
+						<div key = {key}>
+							<li><button type = "button" className = "sourceButton" value = {key} onClick={() => handleDestinationSelect(key)}>{key}</button></li>
+						</div> ))}
+					</ul>
+				</div>
+				<button type = "submit" id = "submitButton">Submit</button>
+			</form>
 		</div>
   	);
 }

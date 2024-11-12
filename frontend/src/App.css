@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  justify-content: left;
+}
+
+.list {
+  margin: 0;
+  padding: 0 30px;
+  list-style-type: none;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.list button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.list button:hover {
+  background-color: #e0e0e0;
+}
+
+.list button.selected {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#submitButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submitButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
