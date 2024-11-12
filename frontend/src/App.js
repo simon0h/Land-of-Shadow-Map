@@ -38,15 +38,20 @@ function App() {
 			setsourceChanged(false);
 			setDestinationChanged(false);
 			setDestAndSourceSel(false);
-			const fetchPath = fetch(`http://127.0.0.1:5000/getpath?source=${selectedSource}&destination=${selectedDestination}`)
-				.then(response => response.json())
-				.then(data => {
-					console.log(data.pathName)
+			const fetchPromise = fetch(`http://127.0.0.1:5000/getpath?source=${selectedSource}&destination=${selectedDestination}`);
+			const responsePromise = fetchPromise.then(response => response.json())
+			responsePromise.then(data => {
+				console.log(data)
+				if (data.pathExists) {
 					setPath(data.pathName)
-				})
-				.catch(error => {
-					console.error('Path request failed:', error);
-				});
+				}
+				else {
+					setPath(["No path available from " + selectedSource + " to " + selectedDestination])
+				}
+			})
+			.catch(error => {
+				console.error('Path request failed:', error);
+			});
 		}
 	}, [destAndSourceSel]); 
 
@@ -72,6 +77,15 @@ function App() {
   	return (
 		<div className = "App">
 			<form onSubmit = {getPath}>
+				<div className = "container">
+					<ul className = "pathList" id = "pathList">
+						{path.map((item, i) => (
+							<div key={i}>
+								<li>{item}</li>
+							</div>
+						))}
+					</ul>
+				</div>
 				<div className = "container">
 					<ul className = "list" id = "sourceList">
 						<h1>Source</h1>

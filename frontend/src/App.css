@@ -71,6 +71,13 @@
   color: white;
 }
 
+.pathList {
+  margin: 0;
+  padding: 0 30px;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
 #submitButton {
   margin-top: 20px;
   padding: 10px 20px;
