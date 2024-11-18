@@ -1,11 +1,15 @@
-import json
-import logging
-import sys
+######## Python imports
+import json, logging, sys
+import sites_of_grace
+
+######## Flask imports
 from flask import Flask, request, render_template, abort
 from flask_cors import CORS
-from pymongo import MongoClient
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 
-import sites_of_grace
+######## MongoDB imports
+from pymongo import MongoClient
 
 app = Flask(__name__)
 CORS(app)
@@ -23,6 +27,18 @@ sites_of_grace.createMap(allLocs)
 
 #set up logging
 logging.basicConfig(level=logging.DEBUG)
+
+limiter = Limiter(
+    get_remote_address,
+    app=app,
+    default_limits=["200 per day", "50 per hour"],
+    storage_uri="memory://",
+)
+
+@app.route("/slow")
+@limiter.limit("1 per day")
+def slow():
+    return "1 left"
 
 @app.errorhandler(403)
 def forbidden_error(error):

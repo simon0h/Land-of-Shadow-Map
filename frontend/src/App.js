@@ -38,7 +38,7 @@ function App() {
 			setsourceChanged(false);
 			setDestinationChanged(false);
 			setDestAndSourceSel(false);
-			const fetchPromise = fetch(`http://127.0.0.1:5000/getpath?source=${selectedSource}&destination=${selectedDestination}`);
+			const fetchPromise = fetch("http://127.0.0.1:5000/getpath?source=${selectedSource}&destination=${selectedDestination}");
 			const responsePromise = fetchPromise.then(response => response.json())
 			responsePromise.then(data => {
 				console.log(data)
@@ -50,7 +50,7 @@ function App() {
 				}
 			})
 			.catch(error => {
-				console.error('Path request failed:', error);
+				console.error("Path request failed: ", error);
 			});
 		}
 	}, [destAndSourceSel]); 
